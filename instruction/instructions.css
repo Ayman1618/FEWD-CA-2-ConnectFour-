@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+    overflow-y: hidden;
+    
+}
+h1{
+    color: blue;
+    margin-left: 3vw;
+    font-size: 4.2vw;
+}
+
+.box{
+    border: 5px solid white;
+    width: 80vw;
+    /* margin-left: 10vw; */
+    /* padding-bottom: 0.2vw; */
+    /* margin-top: -3vw; */
+
+    top:40%;
+    left: 100%;
+    transform: translate(11%,5%);
+    
+}
+
+li{
+    font-size: 2vw;
+}
+
+/* .next{
+    height:1vw;
+    width: 1vw;
+} */
+
+.nexxt{
+    height: 7vw;
+    width: 8vw;
+    margin-left: 44vw;
+    margin-top: 3vw;
+}
+
+.back{
+    margin-left: 1vw;
+}
+
+@media (max-width:300px){
+    .box{
+        height: 100vw;
+                      
+
+    }
+
+    .text{
+        font-size: 8.5vw;
+               
+        
+    }
+
+    .nexxt{
+        margin-top: 10vw;
+    }
+}
+

@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+#board {
+    height: 33.4vw;
+    width: 40vw;
+    background-color: blue;
+    border: 10px solid navy;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 12vw;
+    
+}
+
+.tile {
+    border-radius: 100px;
+    height: 4vw;
+    width: 4vw;
+    margin: 5px;
+    background-color: white;
+    border: 5px solid navy;
+    margin-left: 0.5vw;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+#winner{
+    color: white;
+
+}
+
+.logo{
+    height: 16vw;
+    width: 25vw;
+    /* margin-bottom: 236vw; */
+    position: absolute;
+    margin-left: -51vw;
+    margin-top: -12vw;
+}
+ 
+.turn-box{
+    border: 2px solid white;
+    position: absolute;
+    background-color: white;
+    height: 12.5vw;
+    width: 12.5vw;
+    margin-top: 20.9vw;
+    margin-left: 72.5vw;
+    border-radius: 7px;
+    border: 9px solid navy;
+}
+
+.player-indication{
+    border: 2px solid rgb(19, 87, 171);
+    background-color: rgb(19, 87, 171);
+    color: aliceblue;
+    font-size: 1.8vw;
+    text-align: center;
+    /* border-radius: 100px; */
+    height: 4vw;
+    margin-top: 0.5vw;
+    font-weight: bolder;
+
+}
+
+.color-indication{
+    border: 2px solid rgb(19, 87, 171);
+    background-color: rgb(19, 87, 171);
+    margin-top: 1vw;
+    /* border-radius: 100px; */
+    height: 6vw;
+}
+
+.disc-indicator{
+    border: 3px solid white;
+    border-radius: 100px;
+    height: 3.4vw;
+    width: 3.4vw;
+    margin-left: 4.5vw;
+    margin-top: 1.2vw;
+}
+
+.mute{
+    height: 7vw;
+    width: 6vw;
+    margin-top: -7vw;
+    margin-left: 23vw;
+    position: absolute;
+}
+
+.exit{
+    height: 5vw;
+    width: 4vw;
+    margin-top: -5.5vw;
+    margin-left: 36vw;
+    position: absolute;
+    
+}
+
+.play-again{
+    height: 5vw;
+    width: 4vw;
+    margin-top: -6vw;
+    margin-left: 30vw;
+    position: absolute;
+}
+
+#muted{
+    cursor: pointer;
+}
+
+/* .timer{
+    color: whitesmoke;
+} */
