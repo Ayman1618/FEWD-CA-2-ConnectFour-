@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Permanent Marker';
-    /* background-color: black; */
+    
 }
 
 .logo{
@@ -17,7 +17,7 @@ input{
     width: 20vw;
     height: 3vw;
     margin-left: 60vw;
-    /* margin-top: 6vw; */
+    
 }
 
 .box{
@@ -54,18 +54,6 @@ input{
     
 }
 
-/* .form-form1{
-    position: absolute;
-    left: -140px;
-    top: 37px;
-
-}
-
-.form-form2{
-    position: absolute;
-
-} */
-
 #logos{
     height:26vw
 }
@@ -85,94 +73,7 @@ input{
     margin-top: 8vw;
 }
 
-/* @media (max-width:300px){
-    .logo{
-        height: 40vw;
-        width: 4vw;
-        margin-top: -120vw;
-        margin-left: 40vw;
-    }
 
-    #logos{
-        height: 60vw;
-        margin-left: -34vw;
-    }
-
-    .play-button{
-        margin-top: 120vw;
-        margin-left: 22vw;
-    }
-
-    #back{
-        height: 70vw;
-        margin-top: 80vw;
-        width: 100vw;
-        margin-left: 10vw;
-
-    }
-
-    .form-form1{
-        margin-top: 120vw;
-        margin-right: 0vw;
-        
-    }
-
-    .form-form2{
-        margin-right: 0vw;
-    }
-
-    .p-1form{
-        margin-top: -18vw;
-        margin-right: 42vw;
-               
-    }
-
-    
-}
-
-@media (min-width: 301px) {
-
-    #back{
-        width: 53vw;
-        height: 38vw;
-        margin-left: 40vw;
-        
-    }
-
-    .play-button{
-        margin-top: 10vw;
-        margin-left: 20vw;
-        
-    }
-
-    #logos{
-        margin-top: -8vw;
-    }
-
-    .form-form2{
-        margin-right: -1vw;
-        margin-top: 0vw;
-    }
-
-    .form-form1{
-        margin-right: -1vw;
-        margin-top: 13vw;
-    }
-
-    .p-1form{
-        margin-top: -12vw;
-    }
-
-
-    
-}
-
-@media (max-width: 500px) {
-    
-    .p-1form{
-        margin-top: -9.9vw;
-    }
-} */
 
 
 
