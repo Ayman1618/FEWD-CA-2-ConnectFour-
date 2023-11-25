@@ -10,7 +10,7 @@
             var nickname1 = document.getElementById('nickname1').value;
             var nickname2 = document.getElementById('nickname2').value;
 
-            // Perform additional validation if needed
+            
 
             if (nickname1.trim() === '' || nickname2.trim() === '') {
                 alert('Please fill in all required fields.');
@@ -57,75 +57,3 @@
 </body>
 </html>
 
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConnectFour</title>
-    <link rel="stylesheet" href="style.css">
-    <script>
-        function validateForm() {
-            var nickname1 = document.getElementById('nickname1').value;
-            var nickname2 = document.getElementById('nickname2').value;
-
-            // Perform additional validation if needed
-
-            if (nickname1.trim() === '' || nickname2.trim() === '') {
-                alert('Please fill in all required fields.');
-                return false;
-            }
-
-            // Uncomment the following lines if you want to store nicknames in local storage
-            // localStorage.setItem("showname1", nickname1);
-            // localStorage.setItem("showname2", nickname2);
-
-            return true;
-        }
-    </script>
-</head>
-<body>
-    <img src="./images/Group 5..png" alt="" id="back"> 
-    
-    <div class="box">
-         <form onsubmit="return validateForm();" action="./instruction/instructions.html" >
-           
-                
-        <div class="form-form1">
-            <input type="text" name="name" placeholder="Enter your Name"  pattern="[A-Za-z]+" title="Only letters are allowed">
-        </div>
-
-        <div class="form-form2">
-            <input type="text" name="name" placeholder="Enter your Nickname" id="nickname1">
-        </div>
-     
-        
- 
-    
-        
-        <div class="p-1form">
-        <div class="form-form3">
-            <input class="input-1" type="text" name="name" placeholder="Enter your Name">
-        </div>
-
-        <div class="form form4">
-            <input class="input-1" type="text" name="name" placeholder="Enter your Nickname" id="nickname2">
-        </div>
-     
-        </div>
-
-            <div class="logo">
-                <img id="logos" src="./images/connectfour logo.png" alt="ConnectFour logo" id="logos">
-            </div>
-
-            <div class="play-button">
-                <button type="submit">
-                    <img src="./images/playy button-2.png" alt="Play-button" id="play">
-                </button>
-            </div>
-        </form>
-    </div>
-</body> -->
-</html> 
