@@ -13,9 +13,7 @@ h1{
 .box{
     border: 5px solid white;
     width: 80vw;
-    /* margin-left: 10vw; */
-    /* padding-bottom: 0.2vw; */
-    /* margin-top: -3vw; */
+    
 
     top:40%;
     left: 100%;
@@ -27,10 +25,7 @@ li{
     font-size: 2vw;
 }
 
-/* .next{
-    height:1vw;
-    width: 1vw;
-} */
+
 
 .nexxt{
     height: 7vw;
