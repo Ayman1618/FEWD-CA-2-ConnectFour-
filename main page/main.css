@@ -42,7 +42,6 @@ body {
 .logo{
     height: 16vw;
     width: 25vw;
-    /* margin-bottom: 236vw; */
     position: absolute;
     margin-left: -51vw;
     margin-top: -12vw;
@@ -66,7 +65,6 @@ body {
     color: aliceblue;
     font-size: 1.8vw;
     text-align: center;
-    /* border-radius: 100px; */
     height: 4vw;
     margin-top: 0.5vw;
     font-weight: bolder;
@@ -77,7 +75,6 @@ body {
     border: 2px solid rgb(19, 87, 171);
     background-color: rgb(19, 87, 171);
     margin-top: 1vw;
-    /* border-radius: 100px; */
     height: 6vw;
 }
 
@@ -119,6 +116,3 @@ body {
     cursor: pointer;
 }
 
-/* .timer{
-    color: whitesmoke;
-} */
