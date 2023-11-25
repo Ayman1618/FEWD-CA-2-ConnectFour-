@@ -15,7 +15,6 @@ body{
 .a1{
     color: white;
     padding-top: 1vw;
-    /* margin-left: 6vw; */
     font-size: 3vw;
     text-align: center;
 }
@@ -39,7 +38,6 @@ body{
 .logo{
     height: 18vw;
     width: 28vw;
-    /* margin-bottom: 236vw; */
     position: absolute;
     margin-left: 2vw;
     margin-top: -7vw;
@@ -48,14 +46,12 @@ body{
 .winner-1{
     margin-top: 2vw;
     font-size: 4vw;
-    /* margin-left: 4vw; */
     text-align: center;
     color: powderblue;
 }
  .statement{
     font-size: 1.9vw;
     margin-top: 3.4vw;
-    /* margin-left: 4vw; */
     text-align: center;
     color: powderblue;
  }
