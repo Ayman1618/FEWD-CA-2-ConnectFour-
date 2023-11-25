@@ -3,13 +3,3 @@ let nickname2 = document.getElementById('nickname2').value
 
 
 
-// localStorage.setItem("showname1" , nickname1)
-
-// localStorage.setItem("showname2" , nickname2)
-
-// if(username==""||nickname==""){
-//     alert("please enter your details to proceed:)");
-// }
-// else{
-//     window.location.href= "../instructions/instruction.html"
-// }
