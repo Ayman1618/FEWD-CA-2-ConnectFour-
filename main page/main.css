@@ -116,3 +116,18 @@ body {
     cursor: pointer;
 }
 
+
+@media only screen and (max-width: 650px) {
+    
+    #board{
+        height: 74vw;
+        width: 54vw;
+    }
+
+    .turn-box{
+        margin-top: 85vw;
+        margin-left: 40vw;
+    }
+
+
+}
