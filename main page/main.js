@@ -42,7 +42,7 @@ audio.onclick = function(){
         localStorage.setItem("sound",true)
         sound = true
         openingAudio.currentTime = 0
-        // openingAudio.volume = 0;
+        
         openingAudio.play()
     }}
 
@@ -90,8 +90,7 @@ function setPiece() {
     if (currPlayer == playerRed) {
         tile.classList.add("red-piece");
         currPlayer = playerYellow;
-        // const drop = new Audio("../sounds/very-lush-and-swag-loop-74140.mp3");
-        // drop.play();
+        
     }
     else {
         tile.classList.add("yellow-piece");
@@ -168,12 +167,7 @@ function setWinner(r, c) {
     gameOver = true;
 }
 
-// if(currPlayer = playerRed && gameOver == true){
-//     localStorage.setItem("winner",red)
-// }
-// else{
-//     localStorage.setItem("winner",yellow)
-// }
+
 
 const change =  document.querySelector(".disc-indicator")
 
@@ -188,19 +182,5 @@ function changeDisc(){
     }
 }
 
-// let seconds = 0;
-// let minutes = 0;
 
-// function timerConvert(ms) {
-// 	let minutes = Math.floor(ms / 60000);
-// 	let seconds = Math.floor((ms % 60000) / 1000);
-// 	return (seconds == 60)? (minutes + 1) + ':00' : minutes + ':' + ((seconds < 10)? '0' : '') + seconds;
-// }
-
-// function startTimer(){
-// 	timer = setInterval(function() {
-// 		seconds = seconds + 1000;
-// 		document.getElementsByClassName('timer')[0].innerText = timerConvert(seconds);
-// 	}, 1000);
-// }
 
