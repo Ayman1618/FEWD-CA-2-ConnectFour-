@@ -5,7 +5,10 @@
 - There are four screens - The start page , instruction page , the Game page and the Result page.
 
 
-**NOTE:** Please open the game in full-screen mode.
+**NOTE:** 
+- Please open the game in full-screen mode.
+- Github's deployed link sometimes give responsiveness , sometimes it does not. The code acts perfectly in VS Code live 
+  server.
 
 **Controls:** Click on any cell you wish to play at. It will go in the bottom-most unfilled cell of that column.
 
