@@ -72,13 +72,13 @@ body{
  }
 
 
- @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 650px) {
     
     .result-box{
         height: 37vw;
         width: 54vw;
         margin-left: 25vw;
-        margin-top: 30vw;
+        margin-top: 33vw;
     }
 
     .button{
@@ -93,6 +93,13 @@ body{
     .return{
         margin-top: 3vw;
         height: 13vw;
+    }
+
+    .logo{
+        height: 30vw;
+        margin-top: -29vw;
+        margin-left: 30vw;
+        width: 45vw;
     }
 
 
