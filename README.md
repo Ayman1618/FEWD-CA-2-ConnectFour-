@@ -7,8 +7,7 @@
 
 **NOTE:** 
 - Please open the game in full-screen mode.
-- Github's deployed link sometimes give responsiveness , sometimes it does not. The code acts perfectly in VS Code live 
-  server.
+- Github's deployed link does often react to the media queries code for responsiveness, but it might noot show sometime. While checking for responsiveness , please try to reload or if possible consider vs code liveserver. The code acts perfectly in VS Code live server.
 
 **Controls:** Click on any cell you wish to play at. It will go in the bottom-most unfilled cell of that column.
 
