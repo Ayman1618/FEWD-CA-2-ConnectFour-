@@ -1,5 +1,7 @@
 # FEWD-CA-2-ConnectFour
 
+## Deployed link : https://ayman1618.github.io/FEWD-CA-2-ConnectFour-/
+
 - The game is called ConnectFour.
 - It is a two-player game.
 - There are four screens - The start page , instruction page , the Game page and the Result page.
